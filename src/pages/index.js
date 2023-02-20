@@ -3,7 +3,11 @@ import * as React from "react";
 const HomePage = () => {
   return (
     <>
-      <h1>Testing</h1>
+      {/* Add actual landing info here */}
+      <h1>Landing Page</h1>
+      {/* Make these buttonos */}
+      <h3>Enter</h3>
+      <h3>Exit</h3>
     </>
   );
 };
