@@ -1,0 +1,9 @@
+@import "../../styles/base/variables.module.scss";
+
+.layout {
+  background-color: $black-background-color;
+  color: $white-text;
+  &.fullScreen {
+    height: 100vh;
+  }
+}

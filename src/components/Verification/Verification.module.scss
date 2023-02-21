@@ -1,0 +1,27 @@
+@import "../../styles/base/variables.module.scss";
+
+.verificationPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  h1 {
+    color: $white-text;
+    margin-bottom: 5rem;
+  }
+  .placeholderImage {
+    height: 20rem;
+    width: 20rem;
+    background-color: $placeholder-image-grey;
+    margin-bottom: 5rem;
+  }
+  .buttonContainer {
+    display: flex;
+    width: 40rem;
+    justify-content: space-between;
+    h3 {
+      color: $white-text;
+    }
+  }
+}

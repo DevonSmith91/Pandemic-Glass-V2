@@ -6,5 +6,5 @@ module.exports = {
     title: `Pandemic-Glass-V2`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
-}
+  plugins: [`gatsby-plugin-sass`],
+};
