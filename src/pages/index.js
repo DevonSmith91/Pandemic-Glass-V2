@@ -1,15 +1,14 @@
+import "../styles/global.module.scss";
 import * as React from "react";
+import Layout from "../components/Layout/Layout";
+import Verification from "../components/Verification/Verification";
 
-const HomePage = () => {
+const VerificationPage = () => {
   return (
-    <>
-      {/* Add actual landing info here */}
-      <h1>Landing Page</h1>
-      {/* Make these buttonos */}
-      <h3>Enter</h3>
-      <h3>Exit</h3>
-    </>
+    <Layout fullScreen>
+      <Verification />
+    </Layout>
   );
 };
 
-export default HomePage;
+export default VerificationPage;
